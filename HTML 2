@@ -1,0 +1,24 @@
+</html>
+
+         <link rel="stylesheet" href="Assignment2.css" >
+        <script src="work1.html"></script>
+        <!--Stop Scrolling-->
+        <meta name="viewport" content="width-device-width, initial-scale=1.0, user-scalable=no"/>
+        <meta name="HandheldFriendly" content="true"/>
+        <!--Apple remove address bar-->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+    </head>
+ 
+    <body style="background-color: rgb(224, 103, 103); margin:0px; padding:0px;align-content: center;text-align: center;" onclick="window.open('work.html','_parent')">
+        <div class = "imageSelect">
+        <img src="c:\Users\merzo\Downloads\pexels-souvenirpixels-1598073.jpg" alt="" class="contentImg">
+        <img src="c:\Users\merzo\Downloads\england-in-pictures-beautiful-places-to-photograph-peak-district-national-park.jpg" alt="" class="contentImg">
+        <img src="c:\Users\merzo\Downloads\images.jpg" alt="" class="contentImg">
+        <img src="c:\Users\merzo\Downloads\09L1zj.jpg" alt="" class="contentImg">
+        <img src="" alt="c:\Users\merzo\Downloads\images (1).jpg" class="contentImg">
+        <img src="" alt="c:\Users\merzo\Downloads\pexels-souvenirpixels-1598073.jpg" class="contentImg">
+        <h1 id="title" style="color:rgb(233, 37, 37);font-family: 'Courier New', Courier, monospace;font-size: 50px;">Photos</h1>
+    </div>
+    </body>
+ 
+</html>
