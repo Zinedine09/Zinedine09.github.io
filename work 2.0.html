@@ -1,64 +1,59 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Rate This Spot</title>
-    <link rel="stylesheet" href="Assignment2.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
-    <meta name="HandheldFriendly" content="true"/>
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-  </head>
+<head>
+  <title>Rate This Spot</title>
+  <link rel="stylesheet" href="Assignment 2.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+  <meta name="HandheldFriendly" content="true"/>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+</head>
+
+<body>
+  <div id="Name">
+    <p>Rate This Spot</p>
+  </div>
+
+  <div id="navBar">
+    <button onclick="window.open('work 2.0.html','_parent')">Home</button>
+    
+    <input id="btnCamera" type="file" accept="image/*" capture="environment" style="display: none;" />
+    <button onclick="document.getElementById('btnCamera').click();">Camera</button>
+    <button onclick="window.open('work1.html','_parent')">Photos</button>
+  </div>
+
   
-  <body>
-    <div id="Name">
-      <p>Rate This Spot</p>
-    </div>
-    <!--Create upper menu bar on page-->
-    <div id="topBar"></div>
+  <div id="content">
     
-    <!--Create main scrolling content area on page-->
-    <div id="content">
-      <!--Create individual clickable content card in main scrolling content area-->
-      <div class="contentCard">
-        <img src="c:\Users\merzo\Downloads\istockphoto-1317623853-612x612.jpg" alt="" class="contentImg">
-        <input type="text" placeholder="Enter caption here" class="captionInput">
-      </div>
-      <div class="contentCard">
-        <img src="c:\Users\merzo\Downloads\england-in-pictures-beautiful-places-to-photograph-peak-district-national-park.jpg" alt="" class="contentImg">
-        <input type="text" placeholder="Enter caption here" class="captionInput">
-      </div>
-      <div class="contentCard">
-        <img src="c:\Users\merzo\Downloads\images.jpg" alt="" class="contentImg">
-        <input type="text" placeholder="Enter caption here" class="captionInput">
-      </div>
-      <div class="contentCard">
-        <img src="c:\Users\merzo\Downloads\pexels-souvenirpixels-414612.jpg" alt="" class="contentImg">
-        <input type="text" placeholder="Enter caption here" class="captionInput">
-      </div>
-      <div class="contentCard">
-        <img src="c:\Users\merzo\Downloads\09L1zj.jpg" alt="" class="contentImg">
-        <input type="text" placeholder="Enter caption here" class="captionInput">
-      </div>
-      <div class="contentCard">
-        <img src="c:\Users\merzo\Downloads\download.webp" alt="" class="contentImg">
-        <input type="text" placeholder="Enter caption here" class="captionInput">
-      </div>
-      <div class="contentCard">
-        <img src="c:\Users\merzo\Downloads\images (1).jpg" alt="" class="contentImg">
-        <input type="text" placeholder="Enter caption here" class="captionInput">
-      </div>
-      <div class="contentCard">
-        <img src="c:\Users\merzo\Downloads\pexels-souvenirpixels-1598073.jpg" alt="" class="contentImg">
-        <input type="text" placeholder="Enter caption here" class="captionInput">
-      </div>
+    <div class="contentCard">
+      <img src="c:\Users\merzo\Downloads\istockphoto-1317623853-612x612.jpg" alt="" class="contentImg">
+      <input type="text" id="caption1" placeholder="Enter caption here" class="captionInput">
     </div>
-    
-    <!--Left navigation bar-->
-    <div id="navBar">
-      <button onclick="window.open('work.html','_parent')">Home</button>
-      <!-- When clicked, file input will open the camera -->
-      <input id="btnCamera" type="file" accept="image/*" capture="environment" style="display: none;" />
-      <button onclick="document.getElementById('btnCamera').click();">Camera</button>
-      <button onclick="window.open('work1.html','_parent')">Photos</button>
+    <div class="contentCard">
+      <img src="c:\Users\merzo\Downloads\england-in-pictures-beautiful-places-to-photograph-peak-district-national-park.jpg" alt="" class="contentImg">
+      <input type="text" id="caption2" placeholder="Enter caption here" class="captionInput">
     </div>
-  </body>
-</html>
+    <div class="contentCard">
+      <img src="c:\Users\merzo\Downloads\images.jpg" alt="" class="contentImg">
+      <input type="text" id="caption3" placeholder="Enter caption here" class="captionInput">
+    </div>
+    <div class="contentCard">
+      <img src="c:\Users\merzo\Downloads\pexels-souvenirpixels-414612.jpg" alt="" class="contentImg">
+      <input type="text" id="caption4" placeholder="Enter caption here" class="captionInput">
+    </div>
+    <div class="contentCard">
+      <img src="c:\Users\merzo\Downloads\09L1zj.jpg" alt="" class="contentImg">
+      <input type="text" id="caption5" placeholder="Enter caption here" class="captionInput">
+    </div>
+    <div class="contentCard">
+      <img src="c:\Users\merzo\Downloads\download.webp" alt="" class="contentImg">
+      <input type="text" id="caption6" placeholder="Enter caption here" class="captionInput">
+    </div>
+    <div class="contentCard">
+      <img src="c:\Users\merzo\Downloads\images (1).jpg" alt="" class="contentImg">
+      <input type="text" id="caption7" placeholder="Enter caption here" class="captionInput">
+    </div>
+    <div class="contentCard">
+      <img src="c:\Users\merzo\Downloads\pexels-souvenirpixels-1598073.jpg" alt="" class="contentImg">
+      <input type="text" id="caption8" placeholder="Enter caption here" class="captionInput">
+    </div>
+  </div>
